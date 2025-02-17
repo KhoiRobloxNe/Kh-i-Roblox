@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Khôi Roblox",
+         Title = "Script Tổng Hợp Của Khôi Roblox",
          Animation = "Youtube: Khôi Roblox"
          },
         Key = {
@@ -30,11 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Thông Tin"})
+     local Tab2o = MakeTab({Name = "Script Farm"})
      
 ------- BUTTON
     
-    AddButton(Tab1o, {
+    AddButton(Tab2o, {
      Name = "Redz Hub",
     Callback = function()
 	  local Settings = {
@@ -46,7 +47,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "W-Azure",
     Callback = function()
 	  getgenv().Team = "Pirates"
@@ -56,7 +57,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "Xero Hub",
     Callback = function()
 	  getgenv().Team = "Marines"
@@ -66,18 +67,25 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "Speed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
   
-  AddButton(Tab1o, {
+  AddButton(Tab2o, {
      Name = "Blue X Hub",
     Callback = function()
 	  _G.Team = "Pirates" 
 _G.FixLag = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  https://www.youtube.com/@Khoirobloxtt
   end
   })
