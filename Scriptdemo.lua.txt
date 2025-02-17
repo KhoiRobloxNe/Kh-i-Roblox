@@ -84,8 +84,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   })
   
   AddButton(Tab1o, {
-     Name = "Redz Hub",
-    Callback = function()
-	  https://www.youtube.com/@Khoirobloxtt
-  end
-  })
+     https://www.youtube.com/@Khoirobloxtt
