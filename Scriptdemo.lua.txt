@@ -21,8 +21,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=77345549032212",
-       Size = {60, 60},
+       Image = "http://www.roblox.com/asset/?id=128626916287440",
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     
+  local Tab2o = MakeTab({Name = "Script Kaitun"})   
 ------- BUTTON
     
     AddButton(Tab1o, {
