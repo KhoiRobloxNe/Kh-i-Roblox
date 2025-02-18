@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Script Tổng Hợp Của Khôi Roblox",
+         Title = "Haha Hub Tổng Hợp Script",
          Animation = "Youtube: Khôi Roblox"
          },
         Key = {
@@ -31,7 +31,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-  local Tab2o = MakeTab({Name = "Script Kaitun"})   
+  local Tab2o = MakeTab({Name = "Script Kaitun"})
+  local Tab3o = MakeTab({Name = "Script Fram Fruit"})
+ local Tab4o = MakeTab({Name = "Script Fram Chest"})  
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -93,5 +95,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
      Name = "Rubu TV Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RuBuBFVn"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Teddy Hub V2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Quantun Onyx Project",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
