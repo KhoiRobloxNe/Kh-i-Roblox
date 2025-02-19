@@ -118,3 +118,54 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()
   end
   })
+  
+  AddButton(Tab3o, {
+     Name = "TBoy Roblox Fram Fruit",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/Farmfruit.lua"))()
+  end
+  })
+  
+  AddButton(Tab1o, {
+     Name = "Bắp Red Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "Simple Hub",
+    Callback = function()
+	  getgenv().simple_settings = {
+    ["MASTERY"] = {
+        ["ACTIVE"] = true,
+        ["METHOD"] = "Half", -- Method for gaining mastery, "Half"[300] or "Full"[600]
+    },
+    ["OBJECTIVE"] = {
+        ["GODHUMAN"] = true,
+        ["RACE-V3"] = true,race to V3 if possible Human, Mink, (Fishman, Ghoul, Cyborg) soon
+        ["FRAGMENT"] = 100000,
+        -- SWORD
+        ["CANVANDER"] = true,
+        ["BUDDY-SWORD"] = true,
+        ["CURSED-DUAL-KATANA"] = true,
+        ["SHARK-ANCHOR"] = true, -- soon.
+        --GUN
+        ["ACIDUM-RIFLE"] = true,
+        ["VENOM-BOW"] = true,
+        ["SOUL-GUITAR"] = true,
+    },
+    ["FRUITPURCHASE"] = true,
+    ["PRIORITYFRUIT"] = {
+        [1] = "Dragon-Dragon",
+        [2] = "Flame-Flame",
+        [3] = "Rumble-Rumble",
+        [4] = "Human-Human: Buddha",
+        [5] = "Dark-Dark",
+    },
+    ["FPSCAP"] = 30,
+    ["LOWTEXTURE"] = true
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  end
+  })
