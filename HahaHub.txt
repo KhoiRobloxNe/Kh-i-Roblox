@@ -119,13 +119,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   end
   })
   
-  AddButton(Tab3o, {
-     Name = "TBoy Roblox Fram Fruit",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/Farmfruit.lua"))()
-  end
-  })
-  
   AddButton(Tab1o, {
      Name = "Bắp Red Hub",
     Callback = function()
@@ -167,5 +160,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
     ["LOWTEXTURE"] = true
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
+  end
+  })
+  
+  AddButton(Tab3o, {
+     Name = "TBoy Roblox Fram Fruit",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/Farmfruit.lua"))()
   end
   })
